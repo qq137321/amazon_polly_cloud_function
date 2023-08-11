@@ -9,12 +9,12 @@ import * as fs from 'fs';
 /// 2. Create a new user with programmatic access
 /// 3. Grant user Full Access to Amazon Polly service
 /// 4. Download user keys
-const awsAccessKeyId: string = '<YOUR AWS ACCESS KEY>';
-const awsSecretAccessKey: string = '<YOUR AWS SECRET ACCESS KEY>';
+const awsAccessKeyId: string = 'AKIA3LYVB44ADRTG2RUF';
+const awsSecretAccessKey: string = 'faukOEzle0rvligYU5hN2gywNq6imzu0WvGyqL2o';
 
 /// Select a AWS region that is most convienent for your purposes. 
 /// https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-regions-availability-zones.html#concepts-available-regions
-const awsRegion: string = 'ap-southeast-1'; // Singapore
+const awsRegion: string = 'us-east-1'; // Singapore
 
 // Create connection to Amazon Polly API
 const Polly = new AWS.Polly({
