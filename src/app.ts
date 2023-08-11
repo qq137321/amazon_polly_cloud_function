@@ -81,6 +81,7 @@ function textToSpeech(ssml: string, filePath: string, fileName: string) {
     }
 }
 
+
 // Test call to TTS function
 textToSpeech(`Stand with your mid-foot under the barbell.
 Bend over and grab the bar with a shoulder-width grip.
